@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verity Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Verity Calculator</h1>
+    <div>
+        <h2>Inside</h2>
+        <label for="innerState">Enter inner state (e.g., 340): </label>
+        <input type="text" id="innerState">
+    </div>
+    <div>
+        <h2>Outside</h2>
+        <label for="outerState">Enter outer state (e.g., 343040): </label>
+        <input type="text" id="outerState">
+    </div>
+    <button onclick="calculateSteps()">Calculate</button>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
